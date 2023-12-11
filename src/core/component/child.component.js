@@ -1,9 +1,8 @@
-export class ChildComponent {
+export default class ChildComponent {
 	/**
-	 * Create the child component content.
-	 * @param {HTMLElement}
+	 * Render the child component content.
+	 * @returns {HTMLElement}
 	 */
-
 	render() {
 		throw new Error('Render method must be implemented in the child class')
 	}

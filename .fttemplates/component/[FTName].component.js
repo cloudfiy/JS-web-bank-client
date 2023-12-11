@@ -1,10 +1,10 @@
 import ChildComponent from '@/core/component/child.component'
-import renderServise from '@/core/services/render.service'
+import renderService from '@/core/services/render.service'
 
 import styles from './<FTName>.module.scss'
-import template from './<FTName>.template.scss'
+import template from './<FTName>.template.html'
 
-export class <FTName | pascalcase> exports ChildComponent {
+export class <FTName | pascalcase> extends ChildComponent {
     render() {
         this.element = renderService.htmlToElement(template, [], styles);
 
